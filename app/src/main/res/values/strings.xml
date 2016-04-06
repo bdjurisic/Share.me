@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Share.me</string>
+    <string name="profile_button_title">P</string>
+    <string name="friends_button_title">F</string>
+    <string name="fa_profile">\uf007</string>
+    <string name="fa_friends">\uf0c0</string>
+    <string name="fa_create">\uf196</string>
+    <string name="fa_list">\uf233</string>
+    <string name="fa_info">\uf129</string>
+    <string name="fa_settings">\uf013</string>
+    <string name="fa_logOut">\uf08b</string>
+
+</resources>
