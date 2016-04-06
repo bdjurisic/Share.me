@@ -35,5 +35,7 @@ public class Menu_Activity extends global {
 
         info_button = (Button) findViewById(R.id.info_button);
         SetIcon(info_button, getResources().getString(R.string.fa_info));
+
+        
     }
 }
