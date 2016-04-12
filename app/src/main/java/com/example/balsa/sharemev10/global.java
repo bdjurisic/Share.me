@@ -28,8 +28,6 @@ public class global extends AppCompatActivity {
         }
         if (type_of_slide.equals("n")) {
             overridePendingTransition(R.anim.right_in, R.anim.left_out);
-        } else {
-            overridePendingTransition(R.anim.right_in, R.anim.left_out);
         }
     }
 
@@ -45,7 +43,6 @@ public class global extends AppCompatActivity {
 
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/fontawesome-webfont.ttf");
         b.setTypeface(tf);
-        b.setBackgroundColor(getResources().getColor(R.color.providno));
         b.setText(icon);
     }
 

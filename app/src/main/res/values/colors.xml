@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#000</color>
+    <color name="bojaPozadine">#000</color>
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#FF4081</color>
     <color name="providno">#00FFFFFF</color>
+    <color name="resultTitles">#696868</color>
+    <color name="iconColor">#F7F7F7</color>
+    <color name="label_icon">#515151</color>
 </resources>
