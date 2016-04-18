@@ -7,5 +7,6 @@
     <dimen name="velicina_ikonica">45dp</dimen>
     <dimen name="padding_linear_top">10dp</dimen>
     <dimen name="padding_linear_bottom">10dp</dimen>
+    <dimen name="padding_profile_info">15dp</dimen>
 
 </resources>

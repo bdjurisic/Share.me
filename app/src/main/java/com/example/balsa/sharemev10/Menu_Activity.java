@@ -3,6 +3,11 @@ package com.example.balsa.sharemev10;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import org.json.JSONArray;
+
+import java.util.HashMap;
 
 
 public class Menu_Activity extends global {
@@ -13,8 +18,6 @@ public class Menu_Activity extends global {
     public Button list_button;
     public Button settings_button;
     public Button info_button;
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_);
@@ -53,6 +56,10 @@ public class Menu_Activity extends global {
         });
         info_button = (Button) findViewById(R.id.info_button);
         SetIcon(info_button, getResources().getString(R.string.fa_info));
+
+
+
+
 
     }
 }

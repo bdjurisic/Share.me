@@ -6,38 +6,58 @@
     android:baselineAligned="false"
     android:orientation="vertical"
     android:gravity="bottom"
-    android:background="#bcc6ca"
+    android:background="@color/bijela_pozadina"
     tools:context="com.example.balsa.sharemev10.Menu_Activity">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="50dp"
+        android:background="@color/crvena_pozadina"
         >
 
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:id="@+id/imageView"
-            android:src="@drawable/logo_share_me"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageView2"
+            android:src="@drawable/small_logo_share_me_white"
+            android:layout_marginLeft="15dp"
             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_username"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:textSize="30dp"
+
+            />
+
     </LinearLayout>
+
+
 
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="#ffffff"
-        android:gravity="bottom">
+        android:gravity="bottom"
+        android:weightSum="3"
+        >
+
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:weightSum="2">
+            android:weightSum="2"
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
@@ -50,7 +70,7 @@
                     android:id="@+id/profil_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-                    android:layout_weight="1"
+
                     android:text="b"
                     android:textColor="@color/iconColor"
                     android:textSize="@dimen/velicina_ikonica"
@@ -58,9 +78,9 @@
                     android:backgroundTint="#07b530" />
 
                 <TextView
-                    android:id="@+id/textView"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
                     android:paddingBottom="10dp"
                     android:text="Profile"
                     android:textColor="@color/label_icon"
@@ -71,7 +91,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
@@ -84,7 +104,6 @@
                     android:id="@+id/friends_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-                    android:layout_weight="1"
                     android:text="@string/profile_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:background="@drawable/button_bg_round"
@@ -94,7 +113,7 @@
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingBottom="10dp"
                     android:text="Friends"
                     android:textAlignment="center"
@@ -107,12 +126,13 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="2">
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -132,7 +152,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingBottom="10dp"
                     android:text="Create event"
                     android:textAlignment="center"
@@ -142,7 +162,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -162,7 +182,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingBottom="10dp"
                     android:text="List of events"
                     android:textAlignment="center"
@@ -173,12 +193,13 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="2">
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -191,7 +212,6 @@
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
                     android:background="@drawable/button_bg_round"
-                    android:layout_weight="1"
                     android:text="@string/profile_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:textColor="@color/iconColor"
@@ -199,7 +219,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingBottom="10dp"
                     android:text="Settings"
                     android:textAlignment="center"
@@ -209,7 +229,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -222,7 +242,6 @@
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
                     android:background="@drawable/button_bg_round"
-                    android:layout_weight="1"
                     android:text="@string/friends_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:textColor="@color/iconColor"
@@ -230,7 +249,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingBottom="10dp"
                     android:text="Info"
                     android:textAlignment="center"
@@ -240,5 +259,4 @@
         </TableRow>
 
     </TableLayout>
-
 </LinearLayout>

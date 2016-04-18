@@ -9,5 +9,16 @@
     <string name="fa_info">\uf129</string>
     <string name="fa_settings">\uf013</string>
     <string name="fa_logOut">\uf08b</string>
+    <string name="fa_back">\uf104</string>
+
+
+
+    <string name="user_email">alex.rudovic@udg.edu.me</string>
+    <string name="user_username">AlexXx</string>
+    <string name="user_name">Alex</string>
+    <string name="user_surname">Rudovic</string>
+    <string name="user_city">Ulcinj</string>
+    <string name="user_gender">Mail</string>
+    <string name="user_tel">+38267977551</string>
 
 </resources>
