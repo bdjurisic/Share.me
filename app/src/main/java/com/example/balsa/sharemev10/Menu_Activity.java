@@ -1,13 +1,9 @@
 package com.example.balsa.sharemev10;
 
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-
-import org.json.JSONArray;
-
-import java.util.HashMap;
 
 
 public class Menu_Activity extends global {
@@ -56,6 +52,12 @@ public class Menu_Activity extends global {
         });
         info_button = (Button) findViewById(R.id.info_button);
         SetIcon(info_button, getResources().getString(R.string.fa_info));
+        info_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
 

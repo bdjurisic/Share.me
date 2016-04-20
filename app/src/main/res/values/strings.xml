@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/tools">
     <string name="app_name">Share.me</string>
     <string name="profile_button_title">P</string>
     <string name="friends_button_title">F</string>
@@ -12,7 +12,6 @@
     <string name="fa_back">\uf104</string>
 
 
-
     <string name="user_email">alex.rudovic@udg.edu.me</string>
     <string name="user_username">AlexXx</string>
     <string name="user_name">Alex</string>
@@ -21,4 +20,25 @@
     <string name="user_gender">Mail</string>
     <string name="user_tel">+38267977551</string>
 
+
+    <string name="title_crossfade">Simple Crossfade</string>
+
+    <string name="title_screen_slide">Screen Slide</string>
+    <string name="title_zoom">Zoom</string>
+    <string name="title_layout_changes">Layout Changes</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+
+
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
