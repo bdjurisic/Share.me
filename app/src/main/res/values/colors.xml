@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000</color>
-    <color name="crvena_pozadina">#ea2423</color>
+    <color name="crvena_pozadina">#272795</color>
     <color name="bijela_pozadina">#ffffff</color>
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#FF4081</color>
@@ -11,6 +11,11 @@
     <color name="label_icon">#515151</color>
 
     <color name="profile_label">#9A9B9C</color>
+
+    <color name="result_create_final">#383838</color>
+
+
+    <color name="c_hint">#696767</color>
 
 
 </resources>

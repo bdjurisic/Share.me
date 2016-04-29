@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bijela_pozadina"
+    android:orientation="vertical"
+    tools:context="com.example.balsa.sharemev10.Create_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/crvena_pozadina"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/providno"
+            android:text="b" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:src="@drawable/small_logo_share_me_white" />
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Create event"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progres_round_blue" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progres_round_blue" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progres_round_blue" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progres_round_gray" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progres_round_gray" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/proba"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="Set a end time of your event"
+            android:textColor="@color/label_icon"
+            android:textSize="20dp" />
+        <TimePicker
+            android:id="@+id/event_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_end_button"
+            android:text="NEXT"
+            android:background="@color/crvena_pozadina"
+            android:paddingTop="20dp"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/profile_label"
+            />
+    </LinearLayout>
+</LinearLayout>

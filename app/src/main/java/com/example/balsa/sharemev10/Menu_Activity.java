@@ -38,6 +38,12 @@ public class Menu_Activity extends global {
         });
         create_button = (Button) findViewById(R.id.create_button);
         SetIcon(create_button, getResources().getString(R.string.fa_create));
+        create_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GoToPage(Menu_Activity.this, Create_Activity.class, "n");
+            }
+        });
 
         list_button = (Button) findViewById(R.id.list_button);
         SetIcon(list_button, getResources().getString(R.string.fa_list));
