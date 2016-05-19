@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/crvena_pozadina"
+        android:background="@color/main_background"
         android:gravity="top"
         android:orientation="horizontal">
 
@@ -109,14 +109,14 @@
             android:hint="describe here..."
             android:padding="15dp"
             android:gravity="top"
-            android:textColor="@color/crvena_pozadina"
+            android:textColor="@color/main_background"
             android:textColorHint="@color/c_hint" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/event_describe_button"
             android:text="NEXT"
-            android:background="@color/crvena_pozadina"
+            android:background="@color/main_background"
             android:paddingTop="20dp"
             android:layout_marginTop="15dp"
             android:paddingBottom="20dp"
