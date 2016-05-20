@@ -1,7 +1,9 @@
 package com.example.balsa.sharemev10;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.telephony.TelephonyManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -31,6 +33,8 @@ public class Create_Activity_Step_final extends global {
     private TextView t_describe;
 
     private Button button;
+    private String uuid;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,19 +62,34 @@ public class Create_Activity_Step_final extends global {
         t_describe.setText(describe);
         t_duration.setText(duration);
 
+        try{
+            TelephonyManager tManager = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
+         uuid = tManager.getDeviceId();
+        }catch (Exception e){
+
+            uuid = "Kompjuter";
+        }
+
+
         button = (Button)findViewById(R.id.event_finish_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                insertEvent("balsa",name,start,end,describe);
-                T_message("Successful!");
-                GoToPage(Create_Activity_Step_final.this,Menu_Activity.class,"n");
+                try{
+                    insertEvent(uuid,name,start,end,describe);
+                    T_message("Successful!");
+                    GoToPage(Create_Activity_Step_final.this,Menu_Activity.class,"b");
+                }catch (Exception e){
+                    T_message("Please try again, something went wrong!");
+                    GoToPage(Create_Activity_Step_final.this,Menu_Activity.class,"b");
+                }
+
             }
         });
 
     }
 
-//
+
     public void insertEvent(String name,String title,String start,String end,String description){
 
         name = name.replaceAll(" ", "%20");
@@ -96,9 +115,7 @@ public class Create_Activity_Step_final extends global {
                         } catch (IOException e) {
                         }
                         String responseString = out.toString();
-                        //..more logic
                     } else {
-                        //Closes the connection.
                         try {
                             response.getEntity().getContent().close();
                             throw new IOException(statusLine.getReasonPhrase());

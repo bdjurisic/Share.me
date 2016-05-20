@@ -9,12 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center"
     android:id="@+id/splash_pozadina"
-    android:background="@color/main_background"
+    android:background="@drawable/errorbg"
     tools:context="com.example.balsa.sharemev10.Splash_Activity">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:src="@drawable/small_logo_share_me_white"
 
         />

@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_background"
+    android:background="@drawable/blurbgpicture"
     android:orientation="vertical"
     tools:context="com.example.balsa.sharemev10.Profile_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/dim_hight_head"
         android:background="@color/main_background"
         android:gravity="top"
         android:orientation="horizontal">
@@ -17,24 +17,23 @@
 
         <Button
             android:id="@+id/_back"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:background="@color/providno"
             android:text="b" />
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:gravity="center"
-        android:background="@drawable/okvir"
         android:orientation="vertical"
         >
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
             android:src="@drawable/small_logo_share_me_white" />
 
@@ -44,7 +43,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Alex Rudovic"
-            android:textSize="25dp"
+            android:textSize="35dp"
             android:textStyle="bold"
             android:layout_marginTop="15dp"/>
 
@@ -53,7 +52,6 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/main_background"
         android:gravity="bottom"
         >
 
@@ -64,7 +62,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/border_gray"
+            android:background="@drawable/profile_labels"
             android:padding="@dimen/padding_profile_info"
             android:weightSum="2">
 
@@ -93,7 +91,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/border_gray"
+            android:background="@drawable/profile_labels"
             android:padding="@dimen/padding_profile_info"
             android:weightSum="2">
 
@@ -122,7 +120,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/border_gray"
+            android:background="@drawable/profile_labels"
             android:padding="@dimen/padding_profile_info"
             android:weightSum="2">
 
@@ -155,7 +153,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/border_gray"
+            android:background="@drawable/profile_labels"
             android:padding="@dimen/padding_profile_info"
             android:weightSum="2">
 

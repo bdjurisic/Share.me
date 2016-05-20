@@ -83,6 +83,7 @@ public class global extends AppCompatActivity {
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/fontawesome-webfont.ttf");
         back.setTypeface(tf);
         back.setText(getResources().getString(R.string.fa_back));
+        back.setTextSize(20);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

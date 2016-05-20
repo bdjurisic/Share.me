@@ -19,4 +19,8 @@
     <dimen name="resault_create_final">20dp</dimen>
 
 
+    <!-- dimenzije hedera odnosno  hight th al aj  je za dugme beck i head citav a logo za sirinu i visiju logoa-->
+    <dimen name="dim_hight_head">65dp</dimen>
+    <dimen name="dim_logo_head">45dp</dimen>
+
 </resources>

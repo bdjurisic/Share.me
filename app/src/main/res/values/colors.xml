@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000</color>
-    <color name="main_background">#3D53C1</color>
+    <color name="main_background">#32000000</color>
     <color name="bijela_pozadina">#ffffff</color>
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#FF4081</color>
     <color name="providno">#00FFFFFF</color>
-    <color name="resultTitles">#696868</color>
+    <color name="resultTitles">#ffffff</color>
     <color name="iconColor">#F7F7F7</color>
-    <color name="label_icon">#515151</color>
+    <!--<color name="label_icon">#2D2D2D</color>-->
+    <color name="label_icon">#ffffff</color>
     <color name="last_profile_area">#f1ffffff</color>
-    <color name="profile_label">#9A9B9C</color>
+    <!--<color name="profile_label">#2D2D2D</color>-->
+    <color name="profile_label">#ffffff</color>
 
-    <color name="result_create_final">#383838</color>
+    <color name="result_create_final">#000</color>
 
 
-    <color name="c_hint">#696767</color>
+    <color name="c_hint">#f1ffffff</color>
 
     <color name="profile_bg">#597FA5</color>
 
+    <!-- krugovi za create event-->
+    <color name="krug_prazni">#32000000</color>
+    <color name="krug_puni">#FFFFFF</color>
+
+    <!--#3D53C1-->
+
+
+    <color name="crna">#000</color>
 </resources>

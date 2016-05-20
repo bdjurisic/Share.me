@@ -6,19 +6,19 @@
     android:baselineAligned="false"
     android:orientation="vertical"
     android:gravity="bottom"
-    android:background="@color/bijela_pozadina"
+    android:background="@drawable/blurbgpicture"
     tools:context="com.example.balsa.sharemev10.Menu_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/dim_hight_head"
         android:background="@color/main_background"
         >
 
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/dim_logo_head"
+            android:layout_height="@dimen/dim_logo_head"
             android:layout_gravity="center"
             android:id="@+id/imageView2"
             android:src="@drawable/small_logo_share_me_white"
@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/user_username"
+            android:text="Menu"
             android:layout_gravity="center"
             android:paddingLeft="20dp"
             android:textSize="30dp"
@@ -43,7 +43,6 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff"
         android:gravity="bottom"
         android:weightSum="3"
         >
@@ -70,12 +69,11 @@
                     android:id="@+id/profil_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-
                     android:text="b"
                     android:textColor="@color/iconColor"
                     android:textSize="@dimen/velicina_ikonica"
-                    android:background="@drawable/button_bg_round"
-                    android:backgroundTint="#07b530" />
+                    android:background="@drawable/profile_round"
+                     />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -83,7 +81,6 @@
                     android:id="@+id/textView"
                     android:paddingBottom="10dp"
                     android:text="Profile"
-                    android:textColor="@color/label_icon"
                     android:paddingTop="@dimen/padding_linear_top"
                     android:textAlignment="center" />
             </LinearLayout>
@@ -106,9 +103,9 @@
                     android:layout_height="@dimen/visina_kruga"
                     android:text="@string/profile_button_title"
                     android:textSize="@dimen/velicina_ikonica"
-                    android:background="@drawable/button_bg_round"
+                    android:background="@drawable/friends_round"
                     android:textColor="@color/iconColor"
-                    android:backgroundTint="#e89b19" />
+                    />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -117,7 +114,6 @@
                     android:paddingBottom="10dp"
                     android:text="Friends"
                     android:textAlignment="center"
-                    android:textColor="@color/label_icon"
                     android:paddingTop="@dimen/padding_linear_top"
                     />
             </LinearLayout>
@@ -144,11 +140,11 @@
                     android:id="@+id/create_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-                    android:background="@drawable/button_bg_round"
+                    android:background="@drawable/create_round"
                     android:text="@string/profile_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:textColor="@color/iconColor"
-                    android:backgroundTint="#b50a37" />
+                  />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -156,7 +152,6 @@
                     android:paddingBottom="10dp"
                     android:text="Create event"
                     android:textAlignment="center"
-                    android:textColor="@color/label_icon"
                     android:paddingTop="@dimen/padding_linear_top"/>
             </LinearLayout>
 
@@ -174,11 +169,11 @@
                     android:id="@+id/list_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-                    android:background="@drawable/button_bg_round"
+                    android:background="@drawable/list_round"
                     android:text="@string/friends_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:textColor="@color/iconColor"
-                    android:backgroundTint="#008cc2" />
+                   />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -186,8 +181,7 @@
                     android:paddingBottom="10dp"
                     android:text="List of events"
                     android:textAlignment="center"
-                    android:textColor="@color/label_icon"
-                    android:paddingTop="@dimen/padding_linear_top"/>
+                    android:paddingTop="@dimen/padding_linear_top" />
             </LinearLayout>
         </TableRow>
 
@@ -211,11 +205,11 @@
                     android:id="@+id/settings_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-                    android:background="@drawable/button_bg_round"
+                    android:background="@drawable/settings_round"
                     android:text="@string/profile_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:textColor="@color/iconColor"
-                    android:backgroundTint="#b418d1" />
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -223,7 +217,6 @@
                     android:paddingBottom="10dp"
                     android:text="Settings"
                     android:textAlignment="center"
-                    android:textColor="@color/label_icon"
                     android:paddingTop="@dimen/padding_linear_top" />
             </LinearLayout>
 
@@ -241,11 +234,11 @@
                     android:id="@+id/info_button"
                     android:layout_width="@dimen/duzina_kruga"
                     android:layout_height="@dimen/visina_kruga"
-                    android:background="@drawable/button_bg_round"
+                    android:background="@drawable/info_round"
                     android:text="@string/friends_button_title"
                     android:textSize="@dimen/velicina_ikonica"
                     android:textColor="@color/iconColor"
-                    android:backgroundTint="#ea2423" />
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -253,7 +246,6 @@
                     android:paddingBottom="10dp"
                     android:text="Info"
                     android:textAlignment="center"
-                    android:textColor="@color/label_icon"
                     android:paddingTop="@dimen/padding_linear_top"/>
             </LinearLayout>
         </TableRow>

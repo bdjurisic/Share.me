@@ -14,6 +14,7 @@ public class Menu_Activity extends global {
     public Button list_button;
     public Button settings_button;
     public Button info_button;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_);
@@ -36,6 +37,7 @@ public class Menu_Activity extends global {
                 GoToPage(Menu_Activity.this, Friends_Activity.class, "n");
             }
         });
+
         create_button = (Button) findViewById(R.id.create_button);
         SetIcon(create_button, getResources().getString(R.string.fa_create));
         create_button.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +49,12 @@ public class Menu_Activity extends global {
 
         list_button = (Button) findViewById(R.id.list_button);
         SetIcon(list_button, getResources().getString(R.string.fa_list));
+        list_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GoToPage(Menu_Activity.this, List_Activity.class, "n");
+            }
+        });
 
         settings_button = (Button) findViewById(R.id.settings_button);
         SetIcon(settings_button, getResources().getString(R.string.fa_settings));
@@ -56,6 +64,7 @@ public class Menu_Activity extends global {
                 GoToPage(Menu_Activity.this, Settings_Activity.class, "n");
             }
         });
+
         info_button = (Button) findViewById(R.id.info_button);
         SetIcon(info_button, getResources().getString(R.string.fa_info));
         info_button.setOnClickListener(new View.OnClickListener() {
@@ -64,9 +73,6 @@ public class Menu_Activity extends global {
 
             }
         });
-
-
-
 
 
     }

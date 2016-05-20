@@ -1,12 +1,10 @@
 package com.example.balsa.sharemev10;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public class Create_Activity_Step_4 extends global {
 
@@ -32,15 +30,16 @@ public class Create_Activity_Step_4 extends global {
 
         }
         editText = (EditText)findViewById(R.id.event_describe);
-        describe_text = editText.getText().toString();
-        if(describe_text.equals(""))
-        {
-            describe_text = "No describe";
-        }
+
         button= (Button)findViewById(R.id.event_describe_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                describe_text = editText.getText().toString();
+                if(describe_text.equals(""))
+                {
+                    describe_text = "No describe";
+                }
                 Intent intent = new Intent();
                 intent.setClass(Create_Activity_Step_4.this, Create_Activity_Step_final.class);
                 intent.putExtra("name", name);
