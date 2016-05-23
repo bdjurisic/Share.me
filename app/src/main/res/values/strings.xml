@@ -41,4 +41,27 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to Share.me</string>
+    <string name="slide_1_desc">Do you have items that you share with people around you?</string>
+
+    <string name="slide_2_title">Tell others !</string>
+    <string name="slide_2_desc">Tell other users that you need particular item and create event..</string>
+
+    <string name="slide_3_title">Time ?</string>
+    <string name="slide_3_desc">Set the exact time of the start and end of your event..</string>
+
+    <string name="slide_4_title">That simple !</string>
+    <string name="slide_4_desc">Everybody uses what they need and everyone is happy!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
 </resources>

@@ -28,7 +28,9 @@
         <activity android:name=".Create_Activity_Step_3" />
         <activity android:name=".Create_Activity_Step_4" />
         <activity android:name=".Create_Activity_Step_final" />
-        <activity android:name=".List_Activity"></activity>
+        <activity android:name=".List_Activity" />
+        <activity android:name=".Info_Activity" />
+        <activity android:name=".WelcomeActivity"></activity>
     </application>
 
 </manifest>

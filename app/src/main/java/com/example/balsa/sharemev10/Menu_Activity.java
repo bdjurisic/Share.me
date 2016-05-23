@@ -70,7 +70,7 @@ public class Menu_Activity extends global {
         info_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                    GoToPage(Menu_Activity.this,Info_Activity.class,"n");
             }
         });
 
