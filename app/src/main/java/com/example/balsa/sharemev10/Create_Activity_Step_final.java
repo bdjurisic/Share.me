@@ -1,9 +1,8 @@
 package com.example.balsa.sharemev10;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.telephony.TelephonyManager;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -63,8 +62,7 @@ public class Create_Activity_Step_final extends global {
         t_duration.setText(duration);
 
         try{
-            TelephonyManager tManager = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
-         uuid = tManager.getDeviceId();
+            uuid = Settings.Secure.getString(getContentResolver(),Settings.Secure.ANDROID_ID);
         }catch (Exception e){
 
             uuid = "Kompjuter";

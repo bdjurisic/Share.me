@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/blurbgpicture"
+    android:orientation="vertical"
     tools:context="com.example.balsa.sharemev10.List_Activity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/dim_hight_head"
@@ -40,24 +41,702 @@
             />
     </LinearLayout>
 
-
-    <LinearLayout
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="wrap_content">
 
-        <TextView
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/list_user_id"
-            android:text="user id"
-            android:textSize="20dp"
-            android:textColor="@color/colorPrimary"
-            />
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVE"
+                    android:textColor="@color/zelena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
 
 
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I need a car"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AlexXx"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 12:50h / End: 00:50h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 : 30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVE"
+                    android:textColor="@color/zelena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I need bike"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balsa"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 11:30h / End: 16:00h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0:30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVE"
+                    android:textColor="@color/zelena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lunch"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anna"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 14:35h / End: 15:05h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVE"
+                    android:textColor="@color/zelena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Party in my house"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kim_Petar"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 20:00h / End: 01:00h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVE"
+                    android:textColor="@color/zelena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meeting"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Petar"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 12:20h / End: 13:20h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sleep over"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anna"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 20:30h / End: 08:30h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Car wash"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AlexXx"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 12:20h / End: 14:20h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4:30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Need apartment tonight"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ArYG"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 22:30h / End: 02:30h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
 </LinearLayout>

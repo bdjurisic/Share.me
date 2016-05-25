@@ -3,32 +3,388 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/errorbg"
+    android:background="@drawable/blurbgpicture"
     tools:context="com.example.balsa.sharemev10.Friends_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_hight_head"
+        android:background="@color/main_background"
+        android:gravity="top"
+        android:orientation="horizontal">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="This page is not available now, please wait for your update or a new version of the application"
-        android:id="@+id/textView4"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center"/>
+        <Button
+            android:id="@+id/_back"
+            android:layout_width="@dimen/dim_hight_head"
+            android:layout_height="@dimen/dim_hight_head"
+            android:background="@color/providno"
+            android:text="b" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK TO MENU"
-        android:id="@+id/fiends_page_back"
-        android:layout_marginTop="10dp"
-       android:padding="20dp"
-        android:layout_gravity="center_horizontal"
-        android:background="#32000000" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/dim_logo_head"
+            android:layout_height="@dimen/dim_logo_head"
+            android:layout_gravity="center"
+            android:src="@drawable/small_logo_share_me_white" />
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="List of friends"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_border"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="#50000000"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/alex" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:background="#20000000"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alex Rudovic"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AlexXx"
+                android:textSize="14dp" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+382 67 222 333"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:gravity="right">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anna Lively"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anna"
+                    android:textSize="14dp" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+382 68 212 345"
+                    android:textSize="14dp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/anna" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/balsa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balsa Djurisic"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balsa"
+                    android:textSize="14dp" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+382 67 000 001"
+                    android:textSize="14dp" />
+
+
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingRight="20dp"
+                android:gravity="right"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ariana Grande"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ArYG"
+                    android:textSize="14dp" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+382 67 020 202"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ariana" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/petar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Petar Zujovic"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Petar"
+                    android:textSize="14dp" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+382 67 501 040"
+                    android:textSize="14dp" />
+
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingRight="20dp"
+                android:gravity="right"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kim Kardashian"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kim_Petar"
+                    android:textSize="14dp" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+382 67 511 141"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/kim" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
 </LinearLayout>

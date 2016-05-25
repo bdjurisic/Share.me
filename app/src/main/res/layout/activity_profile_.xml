@@ -23,163 +23,170 @@
             android:text="b" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        >
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:src="@drawable/small_logo_share_me_white" />
 
-        <TextView
-            android:id="@+id/profile_username"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Alex Rudovic"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            android:layout_marginTop="15dp"/>
+            android:orientation="vertical"
+            android:gravity="bottom">
 
 
-    </LinearLayout>
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom"
-        >
-
-
-
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/profile_labels"
-            android:padding="@dimen/padding_profile_info"
-            android:weightSum="2">
-
-
-            <TextView
-                android:id="@+id/t111"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Username"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/profile_label" />
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp">
 
-            <TextView
-                android:id="@+id/profil_username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:text="@string/user_username"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/resultTitles" />
-        </TableRow>
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/small_logo_share_me_white" />
 
-        <TableRow
+                <TextView
+                    android:id="@+id/profile_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Alex Rudovic"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/profile_labels"
-            android:padding="@dimen/padding_profile_info"
-            android:weightSum="2">
-
-
-            <TextView
-                android:id="@+id/t1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Name"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/profile_label" />
-
-            <TextView
-                android:id="@+id/profil_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:text="@string/user_name"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/resultTitles" />
-        </TableRow>
-
-        <TableRow
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/profile_labels"
-            android:padding="@dimen/padding_profile_info"
-            android:weightSum="2">
+            </LinearLayout>
 
 
-            <TextView
-                android:id="@+id/t11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Surname"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/profile_label" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/profil_surname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:text="@string/user_surname"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/resultTitles" />
-        </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/profile_labels"
+                    android:padding="@dimen/padding_profile_info"
+                    android:weightSum="2">
 
 
+                    <TextView
+                        android:id="@+id/t111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Username"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/profile_label" />
+
+                    <TextView
+                        android:id="@+id/profil_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/user_username"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/resultTitles" />
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/profile_labels"
+                    android:padding="@dimen/padding_profile_info"
+                    android:weightSum="2">
 
 
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Name"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/profile_label" />
 
-        <TableRow
+                    <TextView
+                        android:id="@+id/profil_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/user_name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/resultTitles" />
+                </TableRow>
 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/profile_labels"
-            android:padding="@dimen/padding_profile_info"
-            android:weightSum="2">
+                <TableRow
 
-
-            <TextView
-                android:id="@+id/t111111"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Tel"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/profile_label" />
-
-            <TextView
-                android:id="@+id/profil_tel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:text="@string/user_tel"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/resultTitles" />
-        </TableRow>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/profile_labels"
+                    android:padding="@dimen/padding_profile_info"
+                    android:weightSum="2">
 
 
-    </TableLayout>
+                    <TextView
+                        android:id="@+id/t11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Surname"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/profile_label" />
+
+                    <TextView
+                        android:id="@+id/profil_surname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/user_surname"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/resultTitles" />
+                </TableRow>
 
 
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/profile_labels"
+                    android:padding="@dimen/padding_profile_info"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:id="@+id/t111111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tel"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/profile_label" />
+
+                    <TextView
+                        android:id="@+id/profil_tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/user_tel"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/resultTitles" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+</ScrollView>
 </LinearLayout>
