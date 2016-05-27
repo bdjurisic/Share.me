@@ -735,7 +735,346 @@
             </LinearLayout>
 
         </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
 
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4:30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test event"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test User"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 22:30h / End: 02:30h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4:30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test event"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test User"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 22:30h / End: 02:30h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4:30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test event"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test User"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 22:30h / End: 02:30h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/list_border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="#50000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4:30 HOUR"
+                    android:textSize="15dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEACTIVE"
+                    android:textColor="@color/crvena"
+                    android:textSize="12dp" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/small_watch" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="#20000000"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test event"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test User"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/small_watch" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Start: 22:30h / End: 02:30h"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
     </TableLayout>
 
 </ScrollView>
